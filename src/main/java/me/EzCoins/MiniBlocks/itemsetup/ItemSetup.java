@@ -19,10 +19,10 @@ public class ItemSetup {
     public static final SlimefunItemStack BLOCK_REDUCER = new SlimefunItemStack(
             "BLOCKREDUCER",
             Material.STONECUTTER,
-            "&6Block Reducer",
+            "&6方块缩小器",
             "",
-            "&7Turns the desired block into a",
-            "&7smaller version of itself.",
+            "&7将方块转换为",
+            "&7小型版本。",
             "",
             MachineLore.energyPerSecond(me.EzCoins.MiniBlocks.machines.BlockReducer.ENERGY_CONSUMPTION)
     );
@@ -30,10 +30,9 @@ public class ItemSetup {
     public static final SlimefunItemStack BLOCK_EXPANDER = new SlimefunItemStack(
             "BLOCKEXPANDER",
             Material.SMITHING_TABLE,
-            "&6Block Expander",
+            "&6方块扩大器。",
             "",
-            "&7Turns the desired MiniBlock into",
-            "&7its original form.",
+            "&7将迷你方块还原。",
             "",
             MachineLore.energyPerSecond(me.EzCoins.MiniBlocks.machines.BlockReducer.ENERGY_CONSUMPTION)
     );

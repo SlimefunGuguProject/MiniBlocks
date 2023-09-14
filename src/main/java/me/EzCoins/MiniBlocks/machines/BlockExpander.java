@@ -46,7 +46,7 @@ public class BlockExpander extends AbstractMachineBlock  implements RecipeDispla
 
     @Override
     public ItemStack getProgressBar() {
-        return new CustomItemStack(Material.DIAMOND_AXE, "&bExpanding...");
+        return new CustomItemStack(Material.DIAMOND_AXE, "&b扩大中...");
     }
 
     @Override

@@ -1,6 +1,7 @@
 package me.EzCoins.MiniBlocks.utils;
 
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import net.guizhanss.guizhanlib.minecraft.helper.MaterialHelper;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -41,6 +42,6 @@ public final class MiniBlockUtils {
 
     @Nonnull
     public static String getMiniBlockDisplayName(@Nonnull CustomHead head) {
-        return "&9" + head.name().substring(0, 1).toUpperCase() + head.name().substring(1).toLowerCase().replace("_", " ") +" &8(MiniBlock)";
+        return "&9" + MaterialHelper.getName(head.getMaterial()) +" &8（迷你方块）";
     }
 }
